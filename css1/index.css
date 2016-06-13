@@ -1,0 +1,90 @@
+body{
+	font-family: 微软雅黑;
+	font-size: 14px;
+}
+ul,li,h1,h2,h3,h4,h5,h6,input{
+	margin:0;
+	padding:0;
+	list-style: none;
+} 
+a{
+	text-decoration: none;
+}
+/*a{
+	position: fixed;
+	margin:auto;
+	top:40px;
+	bottom: 0px;
+	left:0px;
+	right:0;
+	width:100%;
+	height: 100%;
+
+
+}*/
+.container{
+	width:500px;
+	margin:0 auto;
+	border:1px solid black;
+	text-align: center;
+}
+.box{
+	padding:40px;	
+}
+.table{
+	width:100%;
+	border-spacing: 0;
+}
+.title{
+	margin-bottom: 20px;
+}
+.table th, .thead td{
+	border-bottom: 10px;
+	padding:10px;
+}
+.buttom{
+	display: inline-block;
+	padding:10px;
+	color: white;
+	cursor: pointer;
+}
+.ul li{
+	display: inline-block;
+	padding:0 30px;
+}
+.ul{
+	margin-top: 20px;
+}
+.add{
+	padding:0 30px;
+	width:70%;
+	background: #aaff89;
+}
+.remove{
+	padding:0 30px;
+	width:30%;
+	background: #ffaa89;
+}
+tr{
+	margin:20px 0px;
+	padding:none;
+	position: relative;
+}
+td{
+	border-bottom:1px solid #ddd;
+	margin:none;
+	margin-top: 30px;
+	padding:15px;
+}
+input{
+	width:48px;
+    text-align: center;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+}
+.submit{
+	display: block;
+	height:20px;
+	margin-top: 18px;
+}
